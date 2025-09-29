@@ -23,6 +23,7 @@ npm install mongodb
 ## Assignment Overview
 
 This week focuses on MongoDB fundamentals including:
+
 - Creating and connecting to MongoDB databases
 - CRUD operations (Create, Read, Update, Delete)
 - MongoDB queries and filters
@@ -45,6 +46,47 @@ Complete all the exercises in this assignment and push your code to GitHub using
 
 - `Week1-Assignment.md`: Detailed assignment instructions
 - `insert_books.js`: Script to populate your MongoDB database with sample book data
+- `queries.js`: Contains all required MongoDB queries for CRUD, advanced queries, aggregation, and indexing
+
+## How to Run the Scripts
+
+### 1. Populate the Database
+
+Run the following command in your terminal to insert sample book data into your MongoDB database:
+
+```bash
+node insert_books.js
+```
+
+This will connect to your local MongoDB instance (or update the URI in the script for Atlas) and insert the sample books into the `plp_bookstore.books` collection.
+
+### 2. Run MongoDB Queries
+
+Open the `queries.js` file. Copy and paste the queries into your MongoDB Shell (`mongosh`) or use MongoDB Compass's "Aggregations" and "Filter" features to run them against your `plp_bookstore` database.
+
+### 3. Submission Requirements
+
+You must submit the following files:
+
+- `insert_books.js` (with your modifications if any)
+- `queries.js` (containing all your MongoDB queries)
+- `README.md` (this file, explaining how to run your scripts)
+- A screenshot of your MongoDB Compass or Atlas showing your collections and sample data
+
+#### 📸 Including Screenshots
+
+To meet the assignment requirements, take screenshots of your MongoDB Compass or Atlas showing:
+
+- The `plp_bookstore` database
+- The `books` collection with sample data
+
+Save your screenshots in the project folder (e.g., `books-collection-1.png`, `books-collection-2.png`).
+You can reference these images in your `Week1-Assignment.md` using:
+
+```markdown
+![MongoDB Compass books collection page 1](./Image/books-collection-1.png)
+![MongoDB Compass books collection page 2](./Image/books-collection-2.png)
+```
 
 ## Requirements
 
@@ -56,4 +98,4 @@ Complete all the exercises in this assignment and push your code to GitHub using
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
