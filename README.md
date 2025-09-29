@@ -73,20 +73,12 @@ You must submit the following files:
 - `README.md` (this file, explaining how to run your scripts)
 - A screenshot of your MongoDB Compass or Atlas showing your collections and sample data
 
-#### 📸 Including Screenshots
+#### 📸 MongoDB Compass Screenshots
 
-To meet the assignment requirements, take screenshots of your MongoDB Compass or Atlas showing:
+Below are screenshots showing the `plp_bookstore` database and the `books` collection with sample data in MongoDB Compass:
 
-- The `plp_bookstore` database
-- The `books` collection with sample data
-
-Save your screenshots in the project folder (e.g., `books-collection-1.png`, `books-collection-2.png`).
-You can reference these images in your `Week1-Assignment.md` using:
-
-```markdown
 ![MongoDB Compass books collection page 1](./Image/books-collection-1.png)
 ![MongoDB Compass books collection page 2](./Image/books-collection-2.png)
-```
 
 ## Requirements
 

@@ -77,10 +77,3 @@ Learn the fundamentals of MongoDB, including installation, creating collections,
 4. Commit and push your changes to GitHub
 5. Your submission will be automatically graded based on the criteria in the autograding configuration
 6. The instructor will review your submission after the autograding is complete
-
-## 📸 MongoDB Compass Screenshot
-
-Below are screenshots showing the `plp_bookstore` database and the `books` collection with sample data in MongoDB Compass:
-
-![MongoDB Compass books collection page 1](./Image/books-collection-1.png)
-![MongoDB Compass books collection page 2](./Image/books-collection-2.png)
